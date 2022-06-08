@@ -12,4 +12,12 @@ tessy\tessy adams
 autogen\adams.t@grandidallc.onmicrosoft.com_local
 
 
+NodeJS code start UiPath Process | JavaScript code | UiPath | Orchestrator API:
+YOUTUBE VIDEO:
 https://youtu.be/pgXlRiTh21M
+NODE.JS CODE:
+https://github.com/cristinegulescu/startUiPathFromSalesforce/blob/master/slack.js
+
+
+SWAGGER UI
+https://cloud.uipath.com/tessydmofxkc/Tessy/orchestrator_/swagger/index.html
