@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>872,735</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>988,2085</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -82,7 +82,7 @@
       <AssemblyReference>NPOI</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="This sequence gets the maximum footprint from www.redfin.com based on user input" DisplayName="GetLotSize" sap:VirtualizedContainerService.HintSize="242,670" sap2010:WorkflowViewState.IdRef="Sequence_33">
+  <Sequence sap2010:Annotation.AnnotationText="This sequence gets the maximum footprint from www.redfin.com based on user input" DisplayName="GetLotSize" sap:VirtualizedContainerService.HintSize="998,2020" sap2010:WorkflowViewState.IdRef="Sequence_33">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="OutputLotSize" />
       <Variable x:TypeArguments="x:Double" Name="UsableLotSize" />
@@ -98,7 +98,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message (Start of GetLotSize process)" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start of GetLotSize process...&quot;]">
+    <ui:LogMessage DisplayName="Log Message (Start of GetLotSize process)" sap:VirtualizedContainerService.HintSize="956,51" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start of GetLotSize process...&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -106,7 +106,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <Sequence DisplayName="Init" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence DisplayName="Init" sap:VirtualizedContainerService.HintSize="956,66" sap2010:WorkflowViewState.IdRef="Sequence_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -122,7 +122,7 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <ui:LogMessage DisplayName="Log Message (Opening Browser...)" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Opening Browser...&quot;]">
+    <ui:LogMessage DisplayName="Log Message (Opening Browser...)" sap:VirtualizedContainerService.HintSize="956,51" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Opening Browser...&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -130,7 +130,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <TryCatch DisplayName="Try to Open Browser" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try to Open Browser" sap:VirtualizedContainerService.HintSize="956,51" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -165,10 +165,10 @@
         </uix:NApplicationCard>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,160" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="438,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -181,45 +181,45 @@
         </Catch>
       </TryCatch.Catches>
     </TryCatch>
-    <uix:NCheckState Exists="{x:Null}" DisplayName="Check If Redfin Browser has loaded, get Lotsize and output it" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NCheckState_7" Timeout="50" Version="V1">
+    <uix:NCheckState Exists="{x:Null}" DisplayName="Check If Redfin Browser has loaded, get Lotsize and output it" sap:VirtualizedContainerService.HintSize="956,1427" sap2010:WorkflowViewState.IdRef="NCheckState_7" Timeout="50" Version="V1">
       <uix:NCheckState.IfExists>
-        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="250,160" sap2010:WorkflowViewState.IdRef="Sequence_31">
+        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="598,1211" sap2010:WorkflowViewState.IdRef="Sequence_31">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="GetLotSize" sap:VirtualizedContainerService.HintSize="208,66" sap2010:WorkflowViewState.IdRef="Sequence_30">
+          <Sequence DisplayName="GetLotSize" sap:VirtualizedContainerService.HintSize="556,1117" sap2010:WorkflowViewState.IdRef="Sequence_30">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Redfin Browser " sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="082f68c3-1b3e-4c8f-89c1-3f21996d2769" Version="V2" WindowResize="Minimize">
+            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Redfin Browser " sap:VirtualizedContainerService.HintSize="514,932" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="082f68c3-1b3e-4c8f-89c1-3f21996d2769" Timeout="60" Version="V2" WindowResize="Minimize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="630,717" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="480,716" sap2010:WorkflowViewState.IdRef="Sequence_26">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:MinimizeWindow Window="{x:Null}" DisplayName="Minimize Window" sap:VirtualizedContainerService.HintSize="934,22" sap2010:WorkflowViewState.IdRef="MinimizeWindow_1" />
-                    <TryCatch DisplayName="Try to Type Address" sap:VirtualizedContainerService.HintSize="934,51" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                    <ui:MinimizeWindow Window="{x:Null}" DisplayName="Minimize Window" sap:VirtualizedContainerService.HintSize="438,22" sap2010:WorkflowViewState.IdRef="MinimizeWindow_1" />
+                    <TryCatch DisplayName="Try to Type Address" sap:VirtualizedContainerService.HintSize="438,287" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <TryCatch.Try>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Address" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="082f68c3-1b3e-4c8f-89c1-3f21996d2769" Text="[Address]" Version="V1">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Address" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="082f68c3-1b3e-4c8f-89c1-3f21996d2769" Text="[Address]" Version="V1">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="https://www.redfin.com/" DesignTimeRectangle="129, 339, 506, 40" ElementType="InputBox" FriendlyName="'3457 W Haley Dr'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='search-input-box' aaname='City, Address, School, Agent, ZIP' /&gt;" Guid="e6e04f98-367a-47ae-aeb5-4649e555c34e" ImageBase64="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" InformativeScreenshot="ecac6d78ff28f5f3431a7a437439d57b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Real Estate, Homes for Sale, MLS Listings, Agents | Redfin' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive" WaitForReadyArgument="Interactive">
                               <uix:TargetAnchorable.Anchors>
@@ -238,7 +238,7 @@
                         </uix:NTypeInto>
                       </TryCatch.Try>
                       <TryCatch.Catches>
-                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,22" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -249,7 +249,7 @@
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                             </ActivityAction.Argument>
-                            <ui:LogMessage DisplayName="Log Message (Address could not be typed)" sap:VirtualizedContainerService.HintSize="334,52" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Error" Message="[&quot;Could not type Address.&quot;]">
+                            <ui:LogMessage DisplayName="Log Message (Address could not be typed)" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Error" Message="[&quot;Could not type Address.&quot;]">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -261,7 +261,7 @@
                         </Catch>
                       </TryCatch.Catches>
                     </TryCatch>
-                    <TryCatch DisplayName="Try to Click Search" sap:VirtualizedContainerService.HintSize="934,51" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                    <TryCatch DisplayName="Try to Click Search" sap:VirtualizedContainerService.HintSize="438,51" sap2010:WorkflowViewState.IdRef="TryCatch_3">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -311,9 +311,9 @@
                         </Catch>
                       </TryCatch.Catches>
                     </TryCatch>
-                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check If Address exists" sap:VirtualizedContainerService.HintSize="934,51" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="082f68c3-1b3e-4c8f-89c1-3f21996d2769" Version="V1">
+                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check If Address exists" sap:VirtualizedContainerService.HintSize="438,51" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="082f68c3-1b3e-4c8f-89c1-3f21996d2769" Version="V1">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="250,160" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="284,160" sap2010:WorkflowViewState.IdRef="Sequence_4">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -355,7 +355,7 @@
                           </sap:WorkflowViewStateService.ViewState>
                           <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'An error'" sap:VirtualizedContainerService.HintSize="208,51" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="082f68c3-1b3e-4c8f-89c1-3f21996d2769" Version="V1">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="250,160" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="284,160" sap2010:WorkflowViewState.IdRef="Sequence_6">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1094,7 +1094,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NCheckState>
-                    <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="934,51" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="www.redfin.com" Version="V1">
+                    <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="438,51" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="www.redfin.com" Version="V1">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1110,12 +1110,12 @@
               </uix:NApplicationCard.TargetApp>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NApplicationCard>
-            <If Condition="[Not (LotSize is Nothing)]" DisplayName="If lotsize was found, divide it by 10 and output it" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="If_7">
+            <If Condition="[Not (LotSize is Nothing)]" DisplayName="If lotsize was found, divide it by 10 and output it" sap:VirtualizedContainerService.HintSize="514,51" sap2010:WorkflowViewState.IdRef="If_7">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1354,7 +1354,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="262,51" sap2010:WorkflowViewState.IdRef="CommentOut_4">
                     <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,143" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,176" sap2010:WorkflowViewState.IdRef="Sequence_41">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1445,12 +1445,12 @@
       </uix:NCheckState.Target>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NCheckState>
-    <ui:LogMessage DisplayName="Log Message (End of GetLotSize process)" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_21" Level="Info" Message="[&quot;End of GetLotSize process...&quot;]">
+    <ui:LogMessage DisplayName="Log Message (End of GetLotSize process)" sap:VirtualizedContainerService.HintSize="956,51" sap2010:WorkflowViewState.IdRef="LogMessage_21" Level="Info" Message="[&quot;End of GetLotSize process...&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
